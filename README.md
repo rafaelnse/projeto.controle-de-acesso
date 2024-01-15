@@ -1,4 +1,6 @@
-# Este repositório contém meu projeto de estágio, que visa atualizar o sistema de controle de acesso de visitantes no prédio da empresa para a versão mais atual do framework Laravel.
+# Sistema de controle de acesso.
+
+Este repositório contém meu projeto de estágio, que visa atualizar o sistema de controle de acesso de visitantes no prédio da empresa para a versão mais atual do framework Laravel.
 
 O sistema anterior era baseado na versão 5.8 do Laravel, que já está desatualizada. A atualização para a versão 10.x do 
 Laravel incluiu uma série de melhorias e novos recursos, como:
