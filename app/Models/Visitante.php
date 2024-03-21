@@ -14,7 +14,7 @@ class Visitante extends Model
         'documento',
         'expedidor',
         'telefone',
-        'endereco',
+        //'endereco',
         'email',
         'imagem',
         //'slug',

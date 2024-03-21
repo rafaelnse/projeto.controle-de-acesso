@@ -39,10 +39,10 @@
             <li class="list-group-item"><h5>{{$visitante->nome}} {{--{{$visitante->sobrenome}}--}}</h5></li>
             <li class="list-group-item"><i class="bi bi-file-earmark-person"></i> Documento: {{$visitante->documento}} || Expedido por: {{$visitante->expedidor}} </li>
             <li class="list-group-item"><i class="bi bi-telephone"></i> Telefone para contato: {{$visitante->telefone}} </li>
-            <li class="list-group-item"><i class="bi bi-geo-alt"></i> Endereço: {{$visitante->endereco}} </li>
+            {{--<li class="list-group-item"><i class="bi bi-geo-alt"></i> Endereço: {{$visitante->endereco}} </li>--}}
             <li class="list-group-item"><i class="bi bi-envelope"></i> E-mail: {{$visitante->email}} </li>
 
-            <li class="list-group-item"><i class="bi bi-person-check-fill"></i> Cadastrado por: Id {{$visitante->user->id}} - {{$visitante->user->nome}}</li>
+            <li class="list-group-item"><i class="bi bi-person-check-fill"></i> Cadastrado por: {{$visitante->user->id}} - {{$visitante->user->nome}}</li>
         </ul>
 
         <br><br>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\AcessoController;
 use App\Models\Visitante;
 use App\Models\Acesso;
 use Illuminate\Http\Request;
@@ -55,7 +56,7 @@ class VisitanteController extends Controller
 
         $visitante = Visitante::create($visitante);
 
-        return redirect()->route('admin.visitantes')->with('sucesso', 'Visitante cadastrado com sucesso');
+        return view('guests.addacesso', compact('visitante'));
     }
 
 
@@ -110,7 +111,7 @@ class VisitanteController extends Controller
             'nome',
             'imagem',
             'telefone',
-            'endereco',
+            //'endereco',
             'email',
         ]));
 

@@ -25,8 +25,8 @@ return new class extends Migration
             $table->string('expedidor');
 
             $table->string('telefone')->nullable();
-            $table->string('endereco')->nullable();
             $table->string('email')->nullable();
+            //$table->string('endereco')->nullable();
 
 
             //$table->string('slug')/*->unique()*/;

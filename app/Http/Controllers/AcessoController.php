@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\VisitanteController;
+//use App\Http\Controllers\VisitanteController;
 use App\Models\Acesso;
 use App\Models\Visitante;
 use Illuminate\Http\Request;
-use Illuminate\Support\Str;
+//use Illuminate\Support\Str;
 
 
 
