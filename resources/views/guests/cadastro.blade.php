@@ -31,8 +31,9 @@
             <label for="telefone" class="col-form-label">Telefone: </label>
             <input type="int" name="telefone" class="validate form-control border-secondary focus-ring" style="--bs-focus-ring-color: rgba(var(--bs-success-rgb), .25)">
 
-            <label for="endereco" class="col-form-label">Endereço: </label>
-            <input type="int" name="endereco" class="validate form-control border-secondary focus-ring" style="--bs-focus-ring-color: rgba(var(--bs-success-rgb), .25)">
+            {{--<label for="endereco" class="col-form-label">Endereço: </label>
+            <input type="int" name="endereco" class="validate form-control border-secondary focus-ring" style="--bs-focus-ring-color: rgba(var(--bs-success-rgb), .25)">--}}
+            
             <label for="email" class="col-form-label">E-mail: </label>
             <input type="int" name="email" class="validate form-control border-secondary focus-ring" style="--bs-focus-ring-color: rgba(var(--bs-success-rgb), .25)">
 
