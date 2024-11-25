@@ -27,10 +27,12 @@ php artisan serve
 O sistema estará disponível em http://localhost:8000.
 
 
-Para possibilitar o salvamento e visualização de imagens:
-1 - Utilizar o comando: 
-```php artisan storage:link``` 
-2 - Em '.env' deve ser alterado
+**Para possibilitar o salvamento e visualização de imagens:**
+*1 - Utilizar o comando: 
+```
+php artisan storage:link
+``` 
+*2 - Em '.env' deve ser alterado
 ```
 de: FILESYSTEM_DISK=local
 para: FILESYSTEM_DISK=public
